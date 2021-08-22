@@ -1,5 +1,7 @@
 import { Modal } from 'react-responsive-modal';
+import  Card from './Cards.js'
 import React, { useState } from 'react';
+import styles from './Projects.module.css';
 
 
 const Projects = () => {
@@ -23,10 +25,19 @@ const [open4, setOpen4] = useState(false);
   const onCloseModal4 = () => setOpen4(false);
 
   return (
-    <div className='modals'>
+    <div className={styles.cardWrapper}>
 
     <div>
-      <button onClick={onOpenModal}>Open 1</button>
+    
+    <Card heading="Wassup"
+   description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
+   gitHub="https://github.com/chusyntax"
+   liveSite="https://github.com/chusyntax"
+   onClick={onOpenModal}
+   >
+     <button className={styles.cardButton} onClick={onOpenModal}>More Information</button>
+  </Card>
+
       <Modal open={open} onClose={onCloseModal} center>
         <h2>Simple centered modal 1</h2>
         <p>
@@ -34,11 +45,12 @@ const [open4, setOpen4] = useState(false);
           pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
           hendrerit risus, sed porttitor quam.
         </p>
-      </Modal>
+      </Modal> 
+     
     </div>
 
      <div>
-      <button onClick={onOpenModal2}>Open 2</button>
+      <button className={styles.cardButton} onClick={onOpenModal2}>More Information</button>
       <Modal open={open2} onClose={onCloseModal2} center>
         <h2>Simple centered modal 2</h2>
         <p>
@@ -50,7 +62,7 @@ const [open4, setOpen4] = useState(false);
     </div>
 
      <div>
-      <button onClick={onOpenModal3}>Open 3</button>
+      <button className={styles.cardButton} onClick={onOpenModal3}>More Information</button>
       <Modal open={open3} onClose={onCloseModal3} center>
         <h2>Simple centered modal 3</h2>
         <p>
@@ -63,7 +75,7 @@ const [open4, setOpen4] = useState(false);
 
 
     <div>
-      <button onClick={onOpenModal4}>Open 4</button>
+      <button className={styles.cardButton} onClick={onOpenModal4}>More Information</button>
       <Modal open={open4} onClose={onCloseModal4} center>
         <h2>Simple centered modal 4</h2>
         <p>
@@ -76,6 +88,37 @@ const [open4, setOpen4] = useState(false);
           pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
           hendrerit risus, sed porttitor quam.
         </p>
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+        
       </Modal>
     </div>
 
