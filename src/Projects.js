@@ -57,13 +57,22 @@ liveSite="https://github.com/chusyntax"
 onClick={onOpenModal1}
 >
 </Card>
-  <Modal open={open1} onClose={onCloseModal1} center>
-    <h2>Simple centered modal 1</h2>
-    <p>
-      Lorem ipsum dolor sit amet,   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-      pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-      hendrerit risus, sed porttitor quam.
-    </p>
+  <Modal open={open1} onClose={onCloseModal1}  center>
+  <div className={styles.modalWrapper}>
+ 
+ <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+
+ <div className={styles.modalContent}>
+     <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
+    <p>Made with</p>
+     <div className={styles.buttonLayout}>
+     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     </div>
+ </div>
+
+</div>
   </Modal> 
 </div>
 
