@@ -1,4 +1,3 @@
-import image from './assets/image 1.jpg'
 import GitHub from './github-white.png';
 import Website from './website-white.png';
 import styles from './Projects.module.css';

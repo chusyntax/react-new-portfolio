@@ -3,10 +3,7 @@ import  Card from './Cards.js'
 import React, { useState } from 'react';
 import styles from './Projects.module.css';
 import './index.css';
-import image from './assets/kicks 1.png';
-import image1 from './assets/image 1.jpg';
-import image2 from './assets/card 1.jpg';
-import image3 from './assets/skweeky 1 mobile.png';
+import Images from './assets/Images.js';
 
 
 
@@ -60,13 +57,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal1}
-cardImage={image2}
+cardImage={Images.card1}
 >
 </Card>
   <Modal open={open1} onClose={onCloseModal1}  center className={styles.customOverlay}>
   <div className={styles.modalWrapper}>
   
- <img clasName={styles.modalImg} src={image3} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card1Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -88,14 +85,14 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal2}
-cardImage={image1}
+cardImage={Images.card2}
 >
 </Card>
   <Modal open={open2} onClose={onCloseModal2} center >
 
   <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card2Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -117,13 +114,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal3}
-cardImage={image}
+cardImage={Images.card3}
 >
 </Card>
   <Modal open={open3} onClose={onCloseModal3} center>
   <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card3Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -146,12 +143,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal4}
+cardImage={Images.card4}
 >
 </Card>
   <Modal open={open4} onClose={onCloseModal4} center>
   <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card4Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -178,12 +176,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal5}
+cardImage={Images.card5}
 >
 </Card>
 <Modal open={open5} onClose={onCloseModal5} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card5Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -205,12 +204,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal6}
+cardImage={Images.card6}
 >
 </Card>
 <Modal open={open6} onClose={onCloseModal6} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card6Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -232,12 +232,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal7}
+cardImage={Images.card7}
 >
 </Card>
 <Modal open={open7} onClose={onCloseModal7} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card7Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -260,12 +261,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal8}
+cardImage={Images.card8}
 >
 </Card>
 <Modal open={open8} onClose={onCloseModal8} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={Images.card8sMobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>

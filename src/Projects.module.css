@@ -198,7 +198,7 @@ object-fit: cover;
     color:white;
     font-size:15px;
     cursor:pointer;
-    
+    margin:1rem;
   }
 
 a{
