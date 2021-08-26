@@ -3,6 +3,7 @@ import  Card from './Cards.js'
 import React, { useState } from 'react';
 import styles from './Projects.module.css';
 import './index.css';
+import image from './assets/image 1.jpg'
 
 
 const Projects = () => {
@@ -59,8 +60,8 @@ onClick={onOpenModal1}
 </Card>
   <Modal open={open1} onClose={onCloseModal1}  center>
   <div className={styles.modalWrapper}>
- 
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+  
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -88,7 +89,7 @@ onClick={onOpenModal2}
 
   <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -115,7 +116,7 @@ onClick={onOpenModal3}
   <Modal open={open3} onClose={onCloseModal3} center>
   <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -143,7 +144,7 @@ onClick={onOpenModal4}
   <Modal open={open4} onClose={onCloseModal4} center>
   <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -175,7 +176,7 @@ onClick={onOpenModal5}
 <Modal open={open5} onClose={onCloseModal5} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -202,7 +203,7 @@ onClick={onOpenModal6}
 <Modal open={open6} onClose={onCloseModal6} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -229,7 +230,7 @@ onClick={onOpenModal7}
 <Modal open={open7} onClose={onCloseModal7} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -257,7 +258,7 @@ onClick={onOpenModal8}
 <Modal open={open8} onClose={onCloseModal8} center>
 <div className={styles.modalWrapper}>
  
- <img clasName={styles.modalImg} src={require('./112803.jpg').default} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>

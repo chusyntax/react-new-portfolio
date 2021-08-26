@@ -1,4 +1,4 @@
-import img from './112803.jpg';
+import image from './assets/image 1.jpg'
 import GitHub from './github-white.png';
 import Website from './website-white.png';
 import styles from './Projects.module.css';
@@ -13,7 +13,7 @@ function Card(props) {
 
 
     <div className={styles.imageOverlay}>
-    <img className={styles.imageOverlayImg} src={img} alt="landscape" />
+    <img className={styles.imageOverlayImg} src={image} alt="landscape" />
       <div className={styles.imageOverlayDescription}>
 
         <a href={props.gitHub} target="_blank" rel="noopener noreferrer">
