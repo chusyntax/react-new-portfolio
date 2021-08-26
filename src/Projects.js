@@ -3,7 +3,11 @@ import  Card from './Cards.js'
 import React, { useState } from 'react';
 import styles from './Projects.module.css';
 import './index.css';
-import image from './assets/image 1.jpg'
+import image from './assets/kicks 1.png';
+import image1 from './assets/image 1.jpg';
+import image2 from './assets/card 1.jpg';
+import image3 from './assets/skweeky 1 mobile.png';
+
 
 
 const Projects = () => {
@@ -56,12 +60,13 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal1}
+cardImage={image2}
 >
 </Card>
-  <Modal open={open1} onClose={onCloseModal1}  center>
+  <Modal open={open1} onClose={onCloseModal1}  center className={styles.customOverlay}>
   <div className={styles.modalWrapper}>
   
- <img clasName={styles.modalImg} src={image} alt="A Landscape" width="100%" height="100%"/>
+ <img clasName={styles.modalImg} src={image3} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1>Heading</h1>
@@ -83,6 +88,7 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal2}
+cardImage={image1}
 >
 </Card>
   <Modal open={open2} onClose={onCloseModal2} center >
@@ -111,6 +117,7 @@ description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus 
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
 onClick={onOpenModal3}
+cardImage={image}
 >
 </Card>
   <Modal open={open3} onClose={onCloseModal3} center>

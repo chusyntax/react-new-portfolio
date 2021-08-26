@@ -13,7 +13,7 @@ function Card(props) {
 
 
     <div className={styles.imageOverlay}>
-    <img className={styles.imageOverlayImg} src={image} alt="landscape" />
+    <img className={styles.imageOverlayImg} src={props.cardImage} alt="Project screenshot" />
       <div className={styles.imageOverlayDescription}>
 
         <a href={props.gitHub} target="_blank" rel="noopener noreferrer">
